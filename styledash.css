@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Cinzel', serif;
+    text-decoration: none;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+.headers{
+    display: flex;
+    background: #5DFF43;
+    padding: 5px;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+}
+
+.headers > h1{
+    font-weight: lighter;
+}
+
+.headers > a {
+    color: #202020;
+    background-color: transparent;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.sub-header{
+    display: flex;
+    padding-top: 55px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background: linear-gradient(72deg, rgb(107, 207, 84) 31%, rgb(38, 204, 87) 69%);
+    justify-content: space-around;
+    font-weight: lighter;
+}
+
+.sub-header > a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+
+.Finances{
+    padding: 20px;
+}

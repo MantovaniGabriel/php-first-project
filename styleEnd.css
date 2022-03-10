@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Cinzel', serif;
+    text-decoration: none;
+}
+
+.headers{
+    display: flex;
+    background: #5DFF43;
+    padding: 5px;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+}
+
+.headers > h1{
+    font-weight: lighter;
+}
+
+.headers > a {
+    color: #202020;
+    background-color: transparent;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.sub-headers{
+    display: flex;
+    padding-top: 70px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background: linear-gradient(72deg, rgb(107, 207, 84) 31%, rgb(38, 204, 87) 69%);
+    justify-content: space-around;
+    font-weight: lighter;
+}
+
+.sub-headers > a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Finances{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.Finances > h1{
+    text-align: center;
+}
+
+hr{
+    width: 90%;
+}
+
+.Teamwork{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.Teamwork > h1{
+    text-align: center;
+}
+
+.table-personal{
+    box-shadow: 4px 4px 7px 3px rgb(200, 200, 200);
+    text-align: center;
+}

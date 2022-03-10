@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Control - Register</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <a href="index.html">Retornar</a>
+            <h1>Welcome to control</h1>
+            <a href="login.html">Login</a>
+        </div>
+    </header>
+
+    <main>
+        <div class="formulary">
+            <h3>Registre-se</h3>
+            <hr>
+            <form action="data.php" method="post">
+                <input type="text" name="name" placeholder="Nome" required>
+                <input type="text" name="user" placeholder="Nome de usuário" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="password" name="password" placeholder="Senha" required>
+                <input type="date" name="date" placeholder="Data de nascimento" required>
+                <fieldset>
+                    <legend>Tipo de pessoa</legend>
+                    <label for="PJ"><input type="radio" name="type" id="PJ" value="PJ">PJ</label>
+                    <label for="PF"><input type="radio" name="type" id="PJ" value="PF" checked>PF</label>
+                </fieldset>
+
+                <input type="submit" value="submit" name="submit">
+            </form>
+        </div>
+    </main>
+</body>
+</html>
